@@ -1,0 +1,19 @@
+.inputContainer{
+    display: flex;
+    justify-content: space-between;
+   
+    max-width: 1400px;
+    margin: 130px auto 0 auto;
+}
+input{
+    padding: 8px;
+}
+.inputContainer input[type="text"]{
+    width: 40%;
+    
+}
+.inputContainer div {
+    font-weight: 500;
+    font-size: 20px;
+}
+

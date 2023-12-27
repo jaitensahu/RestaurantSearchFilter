@@ -1,0 +1,51 @@
+.Navbar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 20px 0;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.512);
+    
+  }
+  .navTabs{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0.2;
+  }
+  .navTabs a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+  }
+  .logo{
+    display: flex;
+  }
+  
+  .navContent{
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;  
+  }
+  .logo h2{
+    margin-left: 10px;
+  }
+  .allCards{
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1440px;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
